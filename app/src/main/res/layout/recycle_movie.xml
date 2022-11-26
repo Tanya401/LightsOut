@@ -167,7 +167,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/syntext"
-                android:text="BOOK TICKETS"/>
+                android:text="BOOK TICKETS"
+                android:backgroundTint="#266ED7"/>
         </RelativeLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
