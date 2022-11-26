@@ -8,6 +8,7 @@
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:542297366370:android:89e04fdf69f5e22342963b",
         "android_client_info": {
           "package_name": "com.example.loginsingup"
@@ -45,6 +46,8 @@
     },
     {
       "client_info": {
+=======
+>>>>>>> origin/master
         "mobilesdk_app_id": "1:542297366370:android:dcc2d9468958f99d42963b",
         "android_client_info": {
           "package_name": "com.example.myapplication"
