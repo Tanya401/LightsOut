@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notification_activity_2"
+    android:background="@color/black">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    <ImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:src="@drawable/blur"/>-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/popup_notification"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="140dp"/>
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="50dp"-->
+    <!--        android:layout_marginTop="140dp"-->
+    <!--        app:cardCornerRadius="20dp">-->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/poster_2"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="140dp"
+        />
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Avatar 2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="345dp"
+        android:textColor="@color/black"
+        android:text="PVR,Ambiance Mall,Gurugram" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="365dp"
+        android:textColor="@color/black"
+        android:text="04:00 PM   9 SEP 2022" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="385dp"
+        android:textColor="@color/black"
+        android:text="Seats:  J3, J4" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@color/black"
+        android:src="@drawable/ic_baseline_location_on_24"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="343dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/qrcode"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_baseline_download_24"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="540dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="540dp"
+        android:textColor="@color/black"
+        android:text="PDF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="560dp"
+        android:textColor="@color/black"
+        android:text="Contack Support: 9834731026" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="435dp"
+        android:textColor="@color/black"
+        android:text="Booking ID:WLHJC34" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="410dp"
+        android:textColor="@color/black"
+        android:src="@drawable/ic_baseline_circle_24" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="410dp"
+        android:textColor="@color/black"
+        android:src="@drawable/ic_baseline_circle_24" />
+    <View
+        android:layout_width="278dp"
+        android:layout_height="2dp"
+        android:background="#D9D9D6"
+        android:layout_marginTop="421dp"
+        android:layout_marginLeft="61dp"/>
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
